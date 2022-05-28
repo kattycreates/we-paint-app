@@ -1,0 +1,28 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A basic realtime chat app using MERN stack and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthika",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "react-router": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

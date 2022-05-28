@@ -1,0 +1,21 @@
+.home{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgba(133, 99, 255, 0.9),rgba(218, 54, 255, 0.9));
+}
+.appName{
+    font-size: 40px;
+    font-weight: 800;
+}
+.sign-in{
+    padding: 10px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
